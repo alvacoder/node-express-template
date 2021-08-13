@@ -1,0 +1,27 @@
+name: njsscan
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+jobs:
+  njsscan:
+    runs-on: ubuntu-latest
+    name: njsscan check
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+    - name: nodejsscan scan
+      id: njsscan
+      uses: ajinabraham/njsscan-action@master
+      with:
+        args: '.'
+  Trufflehog:
+    name: Trufflehog Actions Scan
+    runs-on: ubuntu-latest
+    steps:
+    - name: Trufflehog Actions Scan
+      uses: edplato/trufflehog-actions-scan@master
+      with:
+        scanArguments: "--regex --entropy=False --max_depth=50 --rules /regexes.json"
+        githubToken: ${{ secrets.TOKEN_SECRETS }}

@@ -1,0 +1,55 @@
+{
+  "name": "NodeJS/Express Template",
+  "version": "1.0.0",
+  "description": "NodeJS, ExpressJS, Node Template, Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvacoder/node-express-template.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "express",
+    "alvacoder"
+  ],
+  "author": "Idris Adeniji (alvacoder)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alvacoder/node-express-template/issues"
+  },
+  "homepage": "https://github.com/alvacoder/node-express-template#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongodb": "^4.1.0",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0",
+    "safe-compare": "^1.1.4",
+    "useragent": "^2.3.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0",
+    "mocha": "^9.0.3",
+    "nodemon": "^2.0.12",
+    "nyc": "^15.1.0",
+    "sinon": "^11.1.2",
+    "supertest": "^6.1.5"
+  }
+}
