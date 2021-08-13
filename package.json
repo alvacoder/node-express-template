@@ -1,5 +1,5 @@
 {
-  "name": "NodeJS/Express Template",
+  "name": "node-express-template",
   "version": "1.0.0",
   "description": "NodeJS, ExpressJS, Node Template, Template",
   "main": "index.js",
