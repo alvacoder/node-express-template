@@ -16,11 +16,3 @@ jobs:
       uses: ajinabraham/njsscan-action@master
       with:
         args: '.'
-  Trufflehog:
-    name: Trufflehog Actions Scan
-    runs-on: ubuntu-latest
-    steps:
-    - name: Trufflehog Actions Scan
-      uses: edplato/trufflehog-actions-scan@master
-      with:
-        scanArguments: "--regex --entropy=False --max_depth=50 --rules /regexes.json"
