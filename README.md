@@ -48,4 +48,4 @@ This template comes with the following dependencies defined:
 3. Be awesome.
 
 ### LICENSE
-* `ISC` - `https://www.isc.org/licenses/`
+* `MIT`
